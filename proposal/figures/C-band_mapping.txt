@@ -1,0 +1,50 @@
+Backend and mode: Vegas Mode2
+Doppler:Off Diode:On TotalPower
+Time resolution: 0.001398 sec
+Minimum Sampling Time: 0.028 sec
+Maximum Integration Time: 15 sec
+================================ Input Values ================================
+-DishDiamMtr = 100.
+-Te = 13
+-apEff = 0
+-fRowColPetal = 1.04
+-fSample = 2.0
+-freqGhz = 4.85
+-mapRadiusDeg = 1.5
+-mapType = OTFDaisy
+-maxNumAccelPerMin = 2
+-numSwPerInt = 4
+-slewMaxDegPerMin = 18.0
+-tMaxIntTime = 15
+-tMinSample = 0.028
+-tOverheadPerRowCol = 15.0
+-tPerBeam = 8.46
+-tResolution = 0.001398
+-xSizeDeg = 5
+-ySizeDeg = 2
+============================== General Results ===============================
+Approximate Aperture Efficiency at Rigging Angle = 0.70858
+Wavelength = 6.1856 cm
+FWHM = 2.5373 arcmin
+Nyquist Sampling (lambda/(2*DishDiam)) = 1.0632 arcmin
+Map Area (pi*mapRadius^2) = 7.0686 degrees^2
+Beam Area (Omega_MB) = 6.6827 arcmin^2
+Number of beams in map = 3807.9
+================================ Daisy Results ===============================
+Number of petals = 555
+Time per petal = 58.146 sec
+Approximate Slew Rate = 0.77133 arcmin/sec
+-----------
+Approximate Number of Accelerations/min = 1.0319
+Sample time = 0.68921 sec
+Actual time per beam area = 8.4748 sec
+Number of samples per beam area = 12.296
+-----------
+Time for Map = Total Time = 8.9642 hrs
+-----------
+ASTRID directive:
+  Daisy( srcName, 1.5*60., 58.146067, 0, 0, scanDuration=32271.067 )
+Config Tool entries:
+  tint = 0.689214
+  swper = 0.1723035
+==============================================================================

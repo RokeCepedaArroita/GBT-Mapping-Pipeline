@@ -1,0 +1,112 @@
+------------------------------------------------------------------------------------------------
+Results
+------------------------------------------------------------------------------------------------
+  
+    Derived Sensitivity (1-sigma): 1.509320 mK
+    --------------------------------------------------------------------------------------------
+    Time at Siginal Position or Frequency: 0.17 s
+    Time at Reference Position or Frequency: 0.17 s
+    Effective Integration Time: 0.09 s
+    --------------------------------------------------------------------------------------------
+    FWHM Beamwidth: 2.54 &#39;
+    Aperture Efficiency: 0.70 
+    Extended Source Efficiency: 0.82 
+    Confusion Limit: 6.30 Tr (mK)
+    --------------------------------------------------------------------------------------------
+    Topocentric Frequency: 4850.000 MHz
+    
+    Min. Topocentric Channel Width: 92.000 kHz
+    Desired Freq. or Vel. Resolution: 1250.000000 MHz or km/s
+    
+    --------------------------------------------------------------------------------------------
+    Typical Air Mass: 1.4 
+    Typical Atmospheric Attenuation: 1.012 
+    Typical System Temperature: 17.8 K
+    --------------------------------------------------------------------------------------------
+    Backend Sampling Efficiency (K1): 1.0000 
+    Backend Channel Weighting (K2): 1.0000 
+  
+  
+------------------------------------------------------------------------------------------------
+Messages
+------------------------------------------------------------------------------------------------
+
+     Warning - Since source is extended, the calculated results are approximations.
+    
+  
+  
+------------------------------------------------------------------------------------------------
+Other Results
+------------------------------------------------------------------------------------------------
+
+     Maximum Elevation: 64.6 d
+     Pulsar Factor (bw / eff_bw * dc / (100.0 - dc)): 1.0000 
+     eta_surf: 1.00 
+     eta_track: 1.00 
+     n_ref_smth_avg: 1.000 
+     max_el_rad: 1.127 
+     Receiver&#39;s Contribution to Tsys: 9.0 K
+     Bandwidth of Reference Obs: 1250.000000 MHz
+     observing_method: 1 
+     eta_dss: 0.96 
+     Best Possible Atmos. Attenuation: 0.007 Nepers
+     Topocentric Wavelength: 6.18 cm
+     min_el_rad: 0.524 
+     dual_pol: 2 
+     Typical Effective Tsys: 18.0 K
+     c2: 0.351580 
+     b: 2.000000 
+     Typical Atmospheric Opacity: 0.008 Nepers
+     Source Diameter: 6.605 &#39;
+     Typical Weighted Mean Temp. of Atmos.: 266.7 K
+     Best Possible Effective Tsys: 17.6 K
+     a: 0.359879 mK / (s^.5)
+     Feed Taper: 13.0 db
+     Approximate CMB: 2.7 K
+     Milky Way Contribution to Tsys: 0.0 K
+     Reference Smoothing Factor: 1 
+     Speed of Light: 2.997925e+10 cm/s
+     k: 1.380650e-23 m^2 kg / (K s^2)
+     Approximate Spillover: 3.0 K
+     Long-Wavelength Efficiency: 0.70 
+     Dish Radius: 50.0 m
+    
+  
+  
+------------------------------------------------------------------------------------------------
+User Input
+------------------------------------------------------------------------------------------------
+    
+    Conversion: Time to Sensitivity 
+    Sensitivity Units: mK
+    User&#39;s Desired Total Observing Time: 0.34
+    User&#39;s Desired Sensitivity (1-sigma): 1.0 mK
+    --------------------------------------------------------------------------------------------
+    Backend: VErsitile GB Astronomical Spectrometer 
+    Mode: Spectral Line 
+    Receiver: C (3.95 - 8.0 GHz) 
+    Beams: 1 
+    Polarization: Dual 
+    Backend Total Bandwidth: 1250.0 MHz
+    Number of Spectral Windows: 1 
+    Switching Mode: Position Switching 
+    --------------------------------------------------------------------------------------------
+    Reference Frame: Rest Frame 
+    Rest Frequency: 4850.0 MHz
+    Doppler Correction: Optical 
+    Source Velocity: 0.0 km/s
+    Redshift: 0.0 z
+    Model for estimating background contribution to Tsys:  User entered contribution to Tsys.  
+    Approximate Right Ascension: 0.0 hours
+    User Estimated Contribution to Tsys: 0.06 K
+    Source Declination: 13.0 d
+    --------------------------------------------------------------------------------------------
+    Ratio of Signal Time vs Referencea Time: 1.0 of RSigRef
+    Number of Reference Observations: 1.0 of NAvrgRef
+    Average Orthogonal Polarization: True
+    Difference Signal: True
+    Smoothing:  Smooth to a Frequency Resolution in the Rest Frame.  
+    
+    Desired Freq. or Vel. Resolution: 1250.000000
+      
+  

@@ -1,0 +1,62 @@
+* Proposers are encouraged to make clear in the technical justification section any constraints about how
+observing time could be broken into smaller pieces without adversely affecting the proposed science;
+include information as relevant regarding maximum elapsed time of a split schedule and minimum scheduling block length
+
+
+Here are some commonly made errors that you should avoid:
+RFI The proposer does not investigate the RFI environment of the GBT before writing the proposal.
+See § 8.
+Mapping Rate The proposer does not use realistic mapping rates. See the map planning tool at
+http://www.gb.nrao.edu/ rmaddale/GBT/GBTMappingCalculator.html.29
+Scanning too fast during map If there are large changes in motion that occurr on timescales less
+than 30 seconds apart, you can excessivley stress the GBT structure. Check with a GBT support
+scientist if you wish to see if you can have large motions on timescales less than 30 seconds apart
+without affecting the telescope.
+Too many IF Signals The proposer asks for too many IF inputs into a backend.
+Single polarizations The proposer asks for single polarization.
+Incorrect Signal-to-Noise Estimate Did you perform the sensitivity calculations correctly? Many
+continuum observers forget to consider 1/f noise and source confusion.
+Overhead not estimated The proposer does not include an estimate of the overhead time in their
+proposal.
+Full Stokes The proposer asks for full Stokes parameters from backends that can’t do this. Currently
+VEGAS can be used for polarization observations.
+Bad Sessions Did you accidently create bad sessions by including all sources in all sessions or including
+all receiver in all sessions?
+
+
+So you have finished writing a brilliant scientific justification that is sure to result in a ground-breaking
+result and you are ready to submit, but have you written a clear, detailed technical justification? Failure
+to address technical issues in your proposal could result in not getting all of your requested time or
+discovering that your simple one hour observation really required 100 hours to get the desired signal-to-
+noise or learning that you are requesting an unavailable observing configuration. Here are a few simple
+suggestions for writing a clear technical justification:
+Assumptions Clearly state all assumptions including observing frequency, observing mode (the most
+common are position-switching, frequency-switching, nodding for dual-beam receivers, and map-
+ping), the desired bandwidth and frequency resolution, and the total observing time required to
+reach your desired sensitivity. When giving sensitivities, it is easier to confirm the values if you
+present the rms noise per channel for a default configuration of the telescope before smoothing.
+Then you state how much smoothing is desired to reach your final sensitivity. The technical jus-
+tification should state the resulting signal-to-noise of the observation and whether it is a peak or
+integrated value. If it is integrated a linewidth should be provided. If these values are presented
+for each source and each frequency to be observed, then it will be much easier to confirm the
+calculations in your proposal and you may even catch some mistakes before submission.
+Receiver and Backend Availability Make sure that you are requesting an available receiver and
+backend configuration.
+Overhead Be sure to clearly state what your overhead request is. Overheads can range from 10% at
+low frequencies up to 50% at high frequencies where frequent pointing and focus observations are
+needed.
+If you follow these simple suggestions, then you are much more likely to get the proper amount of
+observing time for your project.
+
+
+********
+
+
+Should only an upper limit be measured, will this have scientific value and meaning?
+
+Specify at the appropriate place  in the cover sheet if your team contains a student who will use the results towards their thesis. It can only help.
+
+GBT Gregorian receivers (primarily, but not limited to, Ku, Ka, Q and W) may only be availableduring a few short, two or three week periods during the semester.
+
+
+Observers with proposals below 26 GHz must provide full justification in their proposals if they require nighttime observing.
